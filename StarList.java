@@ -143,7 +143,7 @@ public class StarList <T> {
 	
 	public boolean remove(T data) {
 		
-		if (!(data == null)) {
+		if (data == null) {
 			return false;
 		}
 		
